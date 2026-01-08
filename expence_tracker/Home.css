@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  margin-top: 5px;
+  padding: 20px;
+  position: sticky;
+}
+.section1 {
+  display: flex;
+  gap: 20px;
+}
+.pageurl ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section3 {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.addexpence {
+  border-radius: 20%;
+  width: 150px;
+  color: cadetblue;
+  background-color: rgb(213, 239, 187);
+}
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.pageurl ul li {
+  list-style: none;
+}
+
+.yeartitle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.yeartitle h2 {
+  margin-top: 1px;
+  color: cadetblue;
+}
+
+.status {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: aliceblue;
+  border-radius: 5%;
+  width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.cardtop {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.simage {
+  border-radius: 40%;
+  width: 50px;
+  border: 2px solid black;
+}
+
+.sval {
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-radius: 20%;
+}
+
+.recent-expenses {
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.expense-table th {
+  text-align: left;
+  font-size: 12px;
+  color: #888;
+  padding-bottom: 10px;
+}
+
+.expense-table td {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.right {
+  text-align: right;
+}
+
+.icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.food {
+  background: #ffe4cc;
+}
+.utility {
+  background: #dbeafe;
+}
+.shopping {
+  background: #ede9fe;
+}
+.health {
+  background: #dcfce7;
+}
+
+.amount-negative {
+  color: #dc2626;
+  font-weight: bold;
+}
