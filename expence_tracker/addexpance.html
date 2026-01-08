@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="addexpance.css" />
+    <title></title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">SpendWise</div>
+      <nav>
+        <a href="/Dashboard">Dashboard</a>
+        <a href="#">Expenses</a>
+        <a href="#">Budget</a>
+        <a href="#">Reports</a>
+      </nav>
+      <div class="profile">
+        <button>🔔</button>
+        <img class="Profile" src="avatar.png" alt="user" />
+      </div>
+    </header>
+    <div class="container">
+        
+    <a href="#" class="back-link">← Back to Dashboard</a>
+      <div class="card">
+        <h2>Add New Expense</h2>
+        <p class="subtitle">Enter details for your new transaction below.</p>
+        <form>
+          <div class="form-group">
+            <label>Expense Title</label>
+            <input type="text" placeholder="e.g., Weekly Groceries" />
+          </div>
+          <div class="row">
+            <div class="form-group">
+              <label>Amount</label>
+              <input type="number" placeholder="$ 0.00" />
+            </div>
+
+            <div class="form-group">
+              <label>Date</label>
+              <input type="date" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Category</label>
+            <select>
+              <option>Food</option>
+              <option>Transport</option>
+              <option>Shopping</option>
+            </select>
+          </div>
+        </form>
+        <div class="checkbox">
+          <input type="checkbox" id="reimbursible" />
+          <label>Mark as reimbursable</label>
+        </div>
+        <div class="submit">
+          <button type="button" class="cancel">Cancel</button>
+          <button type="submit" class="save">✅Save Expense</button>
+        </div>
+      </div>
+    </div>
+    <footer>Need help? Visit our <a href="#">Help Center</a></footer>
+  </body>
+</html>
