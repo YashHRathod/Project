@@ -16,7 +16,7 @@
       <div class="pageurl">
         <ul>
           <li><a href="#">Dashboard</a></li>
-          <li><a href="/expence_tracker/addexpance.html">AddExpence</a></li>
+          <li><a href="./addexpance.html">AddExpence</a></li>
           <li><a href="#H">History</a></li>
         </ul>
       </div>
@@ -85,54 +85,9 @@
             <th class="right">Amount</th>
           </tr>
         </thead>
+
         <tbody id="expenseBody">
-          <!-- Dynamic rows from JS -->
-          <tr>
-            <td>
-              <span class="icon food">☕</span>
-            </td>
-            <td>
-              <strong>Starbucks</strong><br />
-              <small>Food & Drink</small>
-            </td>
-            <td>Today, 9:41 AM</td>
-            <td class="right amount-negative">- $5.50</td>
-          </tr>
-          <tr>
-            <td>
-              <span class="icon utility">⚡</span>
-            </td>
-            <td>
-              <strong>Electric Bill</strong><br />
-              <small>Utilities</small>
-            </td>
-            <td>Yesterday</td>
-            <td class="right amount-negative">- $120.00</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="icon shopping">🛒</span>
-            </td>
-            <td>
-              <strong>Amazon</strong><br />
-              <small>Shopping</small>
-            </td>
-            <td>Sep 20, 2023</td>
-            <td class="right amount-negative">- $34.99</td>
-          </tr>
-
-          <tr>
-            <td>
-              <span class="icon health">💪</span>
-            </td>
-            <td>
-              <strong>Gym Membership</strong><br />
-              <small>Health</small>
-            </td>
-            <td>Sep 18, 2023</td>
-            <td class="right amount-negative">- $45.00</td>
-          </tr>
+          <!-- Rows will be injected from JS -->
         </tbody>
       </table>
     </section>

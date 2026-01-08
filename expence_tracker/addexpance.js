@@ -26,9 +26,8 @@ form.addEventListener("submit", function (e) {
   expenses.push(expense);
   localStorage.setItem("expenses", JSON.stringify(expenses));
 
-//   alert("Expense saved successfully ✅");
+  //   alert("Expense saved successfully ✅");
 
-  form.reset(); 
-  window.location.href = "http://127.0.0.1:5500/expence_tracker/Home.html";
-
+  form.reset();
+  window.location.href = "./Home.html";
 });
